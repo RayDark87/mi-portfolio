@@ -1,0 +1,142 @@
+*{padding: 0;margin: 0;}
+a{text-decoration: none; color: white; transition: all 0.8s ease;}
+
+@font-face {
+    font-family: boston;
+    src: url(/fonts/boston/boston.ttf);
+}
+
+@font-face {
+    font-family: linux;
+    src: url(/fonts/linux_libertine/LinLibertine_aDRS.ttf);
+}
+
+p, h1, h2, h3, h4{color: white;font-family: linux , sans-serif;}
+
+body {
+    background-image: url(/img/main.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 6% 0 0 10%;
+    gap: 50px;
+}
+
+main h1{
+    font-size: 4.0em;
+}
+
+.subtitle{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    gap: 2%;
+    font-size: 1.5em;
+    transition: all 0.8s ease;
+    cursor: pointer;
+
+}
+
+.subtitle:hover{
+    color: #B069DB;
+    text-decoration: underline;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5% 54% 0 7%;
+    gap: 30px 20px;
+    padding: 50px;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1 calc(40% - 10px);
+    gap: 10%;
+    padding: 5% 10%;
+    border: 1px solid #B069DB;
+    color: #B069DB;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    box-sizing: border-box;
+    }
+
+.btn-txt{
+    justify-content: space-between;
+    color: #B069DB;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.btn-enter{
+    color: #B069DB;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+footer{
+    margin: 1% 0 -1% 0;
+    padding: 20px 0 47px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer div img{
+    background-color: white;
+    border-radius: 5px;
+    width: 20%;
+    cursor: pointer;
+}
+
+.linkedin, .infojobs, .email, .github {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 5%;
+    transition: all 0.8s ease;
+
+}
+
+.infojobs img{
+    width: 18%;
+}
+
+.email img{
+    width: 10%;
+}
+
+footer div:hover{
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+footer div a:hover{
+    color: #B069DB;
+}
+
+.version{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.version a{transition: all 0.5s ease; cursor: pointer;}
+
+.version a:hover{color: #B069DB;}
