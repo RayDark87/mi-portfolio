@@ -3,12 +3,12 @@ a{text-decoration: none; color: white; transition: all 0.8s ease;}
 
 @font-face {
     font-family: boston;
-    src: url(../../fonts/boston/boston.ttf);
+    src: url(../../../Kernel-and-IT-Panic-Portfolio/fonts/boston/boston.ttf);
 }
 
 @font-face {
     font-family: linux;
-    src: url(../../fonts/linux_libertine/LinLibertine_aDRS.ttf);
+    src: url(../../../Kernel-and-IT-Panic-Portfoliofonts/linux_libertine/LinLibertine_aDRS.ttf);
 }
 
 p, h1, h2, h3, h4{color: white;font-family: linux , sans-serif;}
