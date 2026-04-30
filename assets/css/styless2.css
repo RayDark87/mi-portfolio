@@ -5,18 +5,18 @@ hr{color: #B069DB;}
 
 @font-face {
     font-family: boston;
-    src: url(../../../Kernel-and-IT-Panic-Portfolio/fonts/boston/boston.ttf);
+    src: url(../../fonts/boston/boston.ttf);
 }
 
 @font-face {
     font-family: linux;
-    src: url(../../../Kernel-and-IT-Panic-Portfolio/fonts/linux_libertine/LinLibertine_aDRS.ttf);
+    src: url(../../fonts/linux_libertine/LinLibertine_aDRS.ttf);
 }
 
 p, h1, h2, h3, h4{color: white;font-family: linux , sans-serif;}
 
 body {
-    background-image: url(../../../Kernel-and-IT-Panic-Portfolio/img/pg2.jpg);
+    background-image: url(../../img/pg2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
