@@ -14,7 +14,7 @@ a{text-decoration: none; color: white; transition: all 0.8s ease;}
 p, h1, h2, h3, h4{color: white;font-family: linux , sans-serif;}
 
 body {
-    background-image: url(../Kernel-and-IT-Panic-Portfolioportfolio/img/main.jpg);
+    background-image: url("../Kernel-and-IT-Panic-Portfolioportfolio/img/main.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
